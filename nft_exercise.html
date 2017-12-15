@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)/Members/Login.aspx?url=%2fdefault.aspx -->
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta id="SiteTitle_ViewPort" name="viewport" content="width=1024">
+
+    <title>Login - Kainos Testing</title>
+
+    <script src="./nft_exercise/jQuery-bdl"></script>
+
+    <link rel="stylesheet" type="text/css" href="./nft_exercise/Common-bdl">
+    <link rel="stylesheet" type="text/css" href="./nft_exercise/old-site-wrapper-bdl">
+    <link rel="stylesheet" href="nft_exercise/styles">
+
+
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery("#page_email").focus();
+        });
+    </script>
+
+</head>
+<body>
+
+<div id="top-of-page" class="PageOuter chrome">
+
+    <div class="sat-nav">
+    </div>
+
+    <div class="page-body">
+        <div id="container" class="wrapper">
+
+
+            <div class="site-header" role="banner">
+                <h1>
+                    <a href="/" id="SiteHeader_SiteTabs_homeLink">
+                        <img src="./nft_exercise/company_logo.png" id="logo"
+                             title="Login - Kainos Testing" alt="Login - Kainos Testing"
+                             class="site-header-logo">
+                    </a>
+
+                </h1>
+
+                <div class="time">1:48 am, 30 Feb</div>
+                <nav class="site-header-links">
+                    <h1 class="hide">Site navigation</h1>
+                </nav>
+                <div class="login-area">
+
+
+                    <div id="NotLoggedInDiv" class="not-logged-in">
+                        <a href="/Members/Register.aspx">Register</a><a id="LoginLink"
+                                                                        href="/Members/Login.aspx"
+                                                                        class="btn login-button">Log
+                        in</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="SiteNavigation" class="site-navigation">
+
+                <div id="SiteHeader_SiteTabs_BarOfSearch_SearchBarDiv" class="search-bar minimised">
+                </div>
+
+            </div>
+
+
+            <div id="Main" class="main">
+
+                <div id="mainContent" class="content wideContent  /&gt;">
+                    <div id="LoginPage">
+                        <small id="NotAMember">Not registered? <a
+                                href="/Members/Register.aspx">
+                            Register now</a></small>
+                        <h1 id="LoginContinueHeading">
+                            Log in to continue</h1>
+
+
+                        <form id="LoginForm" class="CommonShortForm " method="post"
+                              action="/Members/SecureLogin.aspx">
+                            <div class="CommonFormInner">
+
+                                <div class="Row " id="EmailRow">
+
+                                    <label for="page_email">
+                                        Email</label><br>
+                                    <input name="page_email" type="text" id="page_email" class="Text" tabindex="10">
+                                </div>
+                                <div class="Row " id="PasswordRow">
+
+                                    <label for="page_password">
+                                        Password</label><br>
+                                    <input name="page_password" type="password" id="page_password" class="Text"
+                                           tabindex="11">
+                                </div>
+                                <div class="g-recaptcha" data-sitekey="6LelhA4UAAAAAKd1vBiLlSobdp2mBTobh1n2q05K"
+                                     tabindex="12" style="margin-left: 5px; padding-top: 10px; padding-bottom:10px">
+                                    <div style="width: 304px; height: 78px;">
+                                        <div>
+                                            <iframe src="https://www.google.com/recaptcha/api2/anchor?k=6LelhA4UAAAAAKd1vBiLlSobdp2mBTobh1n2q05K&amp;co=aHR0cHM6Ly93d3cudHJhZGVtZS5jby5uejo0NDM.&amp;hl=en&amp;v=r20171212152908&amp;size=normal&amp;cb=ods2xd58rvmz"
+                                                    width="304" height="78" role="presentation" frameborder="0"
+                                                    scrolling="no"
+                                                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                                        </div>
+                                        <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                                                  class="g-recaptcha-response"
+                                                  style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="Row SubmitRow">
+                                    <button id="LoginPageButton" class="spriteButton button27" value="Login"
+                                            type="submit" tabindex="14">
+                                        Log in
+                                    </button>
+                                    <div id="RememberMeBox">
+                                        <input type="checkbox" id="PageRememberMe" name="auto_login" value="true"
+                                               tabindex="13">
+                                        <label for="PageRememberMe">
+                                            Remember me</label>
+                                    </div>
+                                    <div class="clear">
+                                    </div>
+                                </div>
+                                <input name="url" type="hidden" id="url" value="/default.aspx">
+                                <input name="login_attempts" type="hidden" id="login_attempts" value="0">
+                                <input type="hidden" name="submitted" value="Y">
+
+                                <script type="text/javascript">
+                                    //<![CDATA[
+                                    document.write("<input type=\"hidden\" name=\"has_javascript\" value=\"1\" />");
+                                    //]]>
+                                </script>
+                                <input type="hidden" name="has_javascript" value="1">
+
+
+                            </div>
+                            <div class="Widget Corner TL"></div>
+                            <div class="Widget Corner TR"></div>
+                            <div class="Widget Corner BL"></div>
+                            <div class="Widget Corner BR"></div>
+                        </form>
+
+                        <div class="ExtraLinks">
+                            <a href="/Members/PasswordReminder.aspx" id="ForgotPasswordLink">Forgot
+                                your password?</a>
+                            <a href="/Help/Topic.aspx?help_id=270" id="ToubleLoggingInLink">Trouble
+                                logging in?</a>
+                            <div class="clear">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="clearLeft"></div>
+            </div>
+        </div>
+    </div>
+    <div class="site-footer">
+        <div class="wrapper">
+
+            <div class="footer-section footer-sidebar">
+                <div class="bd">
+                    <div class="old-btn-group choose-platform">
+                        <a class="btn toggle-large "><span class="icon-desktop"></span>English</a>
+                        <a href="" id="Footer_FooterLinks_MobileToggler"
+                           class="btn toggle-large btn-active last-child"><span class="icon-mobile"></span>Polish</a>
+                    </div>
+                    <p class="copyright">© 2017 Kainos Limited</p>
+
+
+                </div>
+            </div>
+            <div class="footer-section footer-links">
+
+            </div>
+        </div>
+
+
+        <iframe sandbox="allow-same-origin allow-scripts" id="multisync-iframe" height="0" width="0" marginwidth="0"
+                marginheight="0" scrolling="no" frameborder="0" src="./nft_exercise/multi-sync.html"
+                style="border: 0px; display: none !important;"></iframe>
+
+
+    </div>
+
+
+</div>
+
+</body>
+
+</html>
